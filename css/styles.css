@@ -1,0 +1,593 @@
+@font-face {
+    font-family: 'Segoe WP';
+    src:url('/fonts/segoe-wp-cdnfonts/SegoeWP.ttf');
+}
+@font-face {
+    font-family: 'Segoe UI';
+    src:url('/fonts/segoeuisymbol/seguisym.ttf');
+}
+@font-face {
+    font-family: 'Segoe WP Semi';
+    src:url('/fonts/segoe-wp-semibold/segoe-wp-semibold.ttf');
+}
+@font-face {
+    font-family: 'Helvetica';
+    src:url('/fonts/Helvetica/helvetica_regular.otf');
+    src:url('/fonts/Helvetica/helvetica_bold.otf');
+}
+body {
+    font-family: 'Segoe UI Symbol', sans-serif;
+    font-size: 14px;
+    min-width: 387pxs;
+}
+/* =====================top-menu===================== */
+.top-menu {
+    background-color: #424242;
+    height: 28px;
+}
+.top-menu a {
+    font-family: 'Segoe WP', sans-serif;
+    color: #a1a0a0;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    margin-top: -10px;
+    text-decoration: none;
+    text-align: right;
+
+}
+.top-menu a:hover {
+    color: #dfdddd;
+}
+/* ====================top-bar========================= */
+.top-bar {
+    height: 112px;
+    background-image: linear-gradient(0.0deg, rgba(0,0,0,0.07) 0%, rgba(255,255,255,0.07) 100%);
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 300;
+    color: #ffffff; 
+    border-bottom: 1px solid #c5c5c7;
+}
+.logo_book {
+    height: 60px;
+    width: auto;
+    margin-top: 20px;
+}
+.form_searsh {
+    width: 468px;
+    height: 39px;
+    background-color:#79b260;
+    margin-top: 30px;
+    border: #79b260 2px solid;
+    margin-left: 40px;
+}
+/* .col-md-3, .col-md-4, .col-md-2, .col-md-5  {
+    border:#232323 1px solid;
+} */
+.form_searsh {
+    margin-left: -15px;
+}
+.form_searsh button {
+    font-size: 14px;
+}
+.form-control {
+    width: 328px;
+    height: 33px;
+    margin-top: 1px;
+    margin-left: 0px;
+    border-radius: 0;
+
+}
+.btn-outline-success {
+    width: 135px;
+    text-align-last: left;
+    border: none;
+    margin-top: -2px;
+    font-family: 'Arial', sans-serif;
+    font-size: 23px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.fa-shopping-cart {
+    transform: scaleX(-1);
+    margin-left: 30px;
+    font-size: 28px;
+    color: #79b260;
+    margin-top: 20px;
+}
+ 
+.text1, .text2, .text3, .text4 {
+    font-family: 'Segoe WP', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color:#777474;
+}
+.text1 {
+    margin-left: 80px;
+    margin-top: -35px;
+}
+.text2 {
+    font-size: 14px;
+    margin-top: -20px;
+    margin-left: 190px;
+}
+.text3 {
+    font-size: 28px;
+    margin-top: 20px;
+    margin-left: 27px;
+}
+.btn-dark {
+    width: 90px;
+    height: 28px;
+    background-image: linear-gradient(0.0deg, #242424 0%, #424242 100%);
+    border: 1px solid #232323;
+    box-shadow: inset 0px 1px 0px 0px rgba(118,118,118,0.74);
+    margin-left: 140px;
+    margin-top: -65px;
+
+    font-size: 15px;
+    line-height: 12px;
+    font-weight: 400;
+    color: #ffffff;
+}
+.vert_line {
+    width: 2px;
+    border-left: 2px solid #b4b1bb; 
+    padding: 10px 20px;
+    margin-left: 0px;
+    margin-top: 15px;
+}
+
+.img_star {
+    font-size: 20px;
+    margin-top: -15px;
+    margin-left: 50px;
+    width: 27px;
+    height: 27px;
+}
+.badge {
+    margin-top: -40px;
+    margin-left: 100px;
+    width: 40px; 
+    font-size: 12px; 
+    background-color: #79b260;
+}
+.text4 {
+    margin-left: 10px;
+    margin-top: -10px;
+    width: 100px;
+}
+
+/* ======================main-menu======================== */
+.navbar-main {
+    height: 40px;
+    border-bottom: #b4b1bb 1px solid;
+    margin-top: -9px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: -40px;
+
+}
+.nav-item a {
+    font-family: 'Segoe UI Symbol', sans-serif;
+    font-size: 19px;
+    line-height: 26px;
+    font-weight: 500;
+    color: #5b5b5b;
+    margin-left: 30px;   
+}
+.nav-item a:hover {
+    background-image: linear-gradient(0.0deg, #79b260 0%, #92d774 100%);
+    color: #fff;
+}
+/* =================carousel_img========================= */
+/* .carousel, .image_right {
+    border: #000 1px solid;
+} */
+
+.carcap1 h1, .carcap2 h1, .carcap3 h1   {
+    font-family: 'Segoe WP', sans-serif;
+    font-size: 47px;
+    line-height: 28px;
+    font-weight: 700;
+    color: #ffffff;
+    margin-left: 220px;
+    margin-top: -50px;
+
+}
+.carcap1 #subtitle, .carcap2 #subtitle, .carcap3 #subtitle {
+    font-size: 25px;
+    font-weight: 400;
+    margin-left: 220px;
+    margin-top: 20px;
+
+}
+.carcap1 #text {
+    font-size: 21px;
+    line-height: 28px;
+    font-weight: 700;
+    color: #ffffff;
+    margin-left: 220px;
+    
+}
+
+.carousel-item {
+    height: 304px;
+
+}
+.carousel-prev-icon, .carousel-next-icon {
+    font-size: 40px;
+   
+
+}
+.carousel-prev-icon img, .carousel-next-icon img { 
+    background-color: rgb(128, 122, 158, 0.7);
+    border-radius: 20px;
+}
+
+/* ========================== */
+.image_right {
+    height: 304px;
+    display: flex;
+    justify-content: center;
+    
+}
+.img_right {
+    position: relative;
+}
+.texts {
+    position: absolute;
+    font-family: 'Segoe WPN', sans-serif;
+}
+.img_title {
+    font-size: 27px;
+    line-height: 24px;
+    font-weight: 600;
+    color: #dad9db;
+    margin-top: 15px;
+    text-align: center;
+}
+.img_subtitle {
+    font-size: 15px;
+    line-height: 26px;
+    font-weight: 300;
+    color: #dad9db;
+    text-align: center;
+
+}
+.img_book2 {
+    margin-left: 30px;
+    margin-top: 5px;
+    
+}
+.img_tex1 {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 21px;
+    line-height: 26px;
+    font-weight: 300;
+
+}
+.img_tex2 {
+    font-size: 29px;
+    line-height: 26px;
+    font-weight: 600;
+    text-align: center;
+}
+.img_btn {
+    width: 110px;
+    height: 30px;
+    background-image: linear-gradient(0.0deg, #51a451 0%, #61c261 100%);
+    border: 1px solid #52a452;
+    margin-left: 60px;
+    margin-top: 5px;
+
+}
+.img_btn a {
+    font-size: 19px;
+    line-height: 26px;
+    font-weight: 600;
+    text-shadow: 0px 1px 0px rgba(74,151,74,0.75);
+    color: #dad9db;
+    text-decoration: none;
+
+}
+/* =================content=============== */
+/* .left_panel, .main_content {
+    border: #424242 1px solid;
+} */
+.left_panel {
+    width: 230px;
+    border: 1px solid rgba(0,0,1,0.15);
+    margin-left: 13px;
+}
+.left_panel a {
+    text-decoration: none;
+    color: #757474;
+}
+#txt1, #txt2, #txt3, #txt4 {
+    list-style-type: none;
+    margin-left: -15px;
+    opacity: 1;
+    margin-top: 5px;
+}
+#txt1:hover, #txt2:hover, #txt3:hover, #txt4:hover {
+    background-image: linear-gradient(0.0deg, #79b260 0%, #92d774 100%);
+}
+#txt1 {
+    font-family: 'Segoe WP', sans-serif;
+    font-size: 24.4px;
+    line-height: 30px;
+    font-weight: 300;
+}
+#txt2, #txt3 {
+    font-family: 'Segoe WPN', sans-serif;
+    font-size: 17px;
+    line-height: 31px;
+    font-weight: 700;
+}
+#txt4 {
+    font-family: 'Segoe UI Symbol';
+    font-size: 15.4px;
+    line-height: 26px;
+    font-weight: 600;
+    color: #555454;
+    border-bottom: #c9c9ca 1px solid;
+}
+/* =========================== */
+.main_content h3 {
+    font-family: 'SegoeWP', sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 300;
+    color: #67686d;
+}
+.btn-main {
+    width: 150px;
+    height: 40px;
+    background-color: #79b260;
+    border: 20px;
+    text-decoration: none;
+    border: none;
+    color: #f1fcee;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.btn-main:hover {
+    box-shadow: -1px -1px 1px 1px #afe797;
+    background-color: #79b260;
+    color: #e0e6de;
+}
+.btn-main::after {
+    box-shadow: 1px 1px 1px -2px #4d6444;
+    background-color: #79b260;
+    color: #e0e6de;
+    outline: none;
+}
+.main_content {
+    margin-left: 10px;
+    width: 880px;
+    border: 1px solid #d8dce0;
+}
+.nav-tabs .nav-link {
+    width: 170px;
+    border-radius: 0;
+    background-image: linear-gradient(0.0deg, #eeeef1 0%, #e9e9fa 100%);
+    margin-left: 1px;
+}
+.nav-tabs .nav-link::after {
+    background-color: #fff;
+}
+.nav-tabs .nav-link a {
+    font-family: 'Helvetica', sans-serif;
+    font-size: 16.7px;
+    line-height: 30px;
+    font-weight: 300;
+    text-shadow: 0px 1px 0px #ffffff;
+    color: #6b6969;
+}
+
+.tab_best {
+    margin-left: 10px;
+}
+/* .row_card {
+    border: 1px solid #d8dce0;
+} */
+.card {
+    border: none;
+    /* border: 1px solid #5b7997; */
+    width: 150px;
+    margin-right: 20px;
+}
+#card_right {
+    margin-right: 0;
+}
+.card-body .card-title {
+    font-family: 'Segoe WP Semi', sans-serif;
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 300;
+    color: #595959;
+    text-align: center;
+}
+.card-price {
+    font-family: 'Helvetica', sans-serif;
+    font-size: 21.7px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #f05356;
+    text-align: center;
+}
+.card-img-top {
+    position: relative;
+}
+.book_badge1 {
+    position: absolute;
+    margin-top: -280px;
+    margin-left: 70px;
+}
+.tabs_page {
+    margin-left: 600px; 
+}
+.tabs_page a {
+    font-family: 'Helvetica_bold', sans-serif;
+    font-size: 16px;
+    line-height: 50px;
+    font-weight: 400;
+    color: #646464;
+    text-decoration: none;
+    width: 10px;
+    text-align: center;
+}
+.tabs_page a:hover {
+    background-color: #ffffff;
+    border: 1px solid #79b260;
+    border-bottom: 4px solid #79b260;
+}
+/* ====================== */
+
+.tab-pane  {
+    color:#232323;
+    font-family: 'Helvetica', sans-serif;
+}
+.nav-link {
+    font-family: 'helvetica_regular', sans-serif;
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 300;
+    text-shadow: 0px 1px 0px #ffffff;
+    color: #6b6969;
+}
+.nav-link::before {
+    font-family: 'helvetica_regular', sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 400;
+    color: #464646;
+}
+.nav-tabs .nav-item .nav-link:hover, 
+.nav-tabs .nav-item .nav-link:focus, 
+.nav-tabs .nav-item .active  {
+    border-bottom: #45ac70 4px solid;
+    color: #46464b;
+    font-weight: 600;
+    /* background-color: #fdfcfc; */
+}
+
+/* ========================= */
+.nav-tabs-bottom  {
+    margin-left: 650px;
+}
+.nav-tabs-bottom .nav-link {
+    height: 30px;
+    line-height: 12px;
+    width: 10px;
+    border: none;
+    background-color: rgb(243, 174, 26);
+    text-align: left;
+    margin-left: 5px;
+}
+/* .nav-tabs-bottom .nav-link:hover {
+    border: #b3abd3 1px solid;
+    border-bottom: #34f183 4px solid;
+}  */
+/* .nav-tabs .nav-item .nav-link {
+    background-color: #0080FF;
+    color: #6e6788;
+  } */
+
+
+
+
+
+
+
+
+
+
+
+
+/* ===================footer============================== */
+/* .col-foot1 {
+    border: #fff 1px solid;
+} */
+.footer {
+    height: 390px;
+    background-color: #444242;
+
+}
+.footer_title {
+    font-family: 'SegoeWP', sans-serif;
+    font-size: 19.7px;
+    line-height: 20px;
+    font-weight: 300;
+    color: #dddddd;
+}
+.col3 {
+    margin-left: -100px;
+}
+.col4 {
+    margin-left: -120px;
+}
+.footer_list1 li {
+    list-style-type: none;
+    border-bottom: 1px solid #685f5f;
+    margin-left: -20px;
+    text-decoration: none;
+}
+
+.footer_list1 li a {
+    text-decoration: none;
+    /* margin-left: -20px; */
+    font-family: 'SegoeWP', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 300;
+    color: #e4d7d7;
+    opacity: 0.6;
+  
+}
+
+.footer_list1 li a:hover {
+    font-weight: 600;
+}
+/* ===================footer pay=========================== */
+.footer_pay {
+    display: flex;
+    justify-content: center;
+    height: 180px;
+    background-color: #302c2c;
+}
+.footer_title {
+    text-align: center;
+    font-family: 'SegoeWP.ttf', sans-serif;
+    font-size: 19.7px;
+    line-height: 24px;
+    font-weight: 300;
+    color: #dddddd;
+}
+.img_pay {
+    /* margin-left: auto;
+    margin-right: auto; */
+    margin: 20px auto 20px auto;
+    width: 200px;
+    height: 37px;
+}
+
+#line {
+    margin-top: -50px;
+}
+.copyright {
+    font-family: 'SegoeWP', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 300;
+    color: #b5b5c2;
+    text-align: center;
+    margin-top: -30px;
+    text-align: center;
+}

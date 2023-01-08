@@ -1,0 +1,45 @@
+@media  (max-width: 991px) {
+  .top-bar {
+    height: 390px;
+  }
+  .navbar-main {
+    margin-top: 20px;
+    margin-left: 0px;
+    border-bottom: none;
+  }
+  .footer {
+    height: 1500px;
+  }
+  #line {
+    margin-top: -50px;
+  }
+  .copyright {
+    /* height: 80px; */
+    background-color: #302c2c;
+  }
+  .nav-tabs-bottom  {
+    margin-left: 450px;
+  }
+}
+@media  (max-width: 767px) {
+  .nav-tabs-bottom  {
+    margin-left: 250px;
+  }
+}
+@media  (max-width: 471px) {
+  .nav-tabs-bottom  {
+    margin-left: 100px;
+  }
+}
+@media  (max-width: 576px) {
+  .form_searsh {
+    width: 350px;
+    margin-left: 10px;
+  }
+
+}
+@media  (max-width: 311px) {
+  .top-menu {
+    height: 56px;
+  }
+}
